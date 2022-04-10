@@ -4,123 +4,121 @@ import { Box, Container, Grid, Button, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import PriceCard from 'components/cards/price-card';
 import priceIcon1 from 'assets/project-image.png';
-
+import priceIcon2 from 'assets/project-image2.png';
+import priceIcon3 from 'assets/project-image3.png';
+import priceIcon4 from 'assets/project-image4.png';
 
 const PRICE_MONTHLY_DATA = [
   {
     recommended: null,
-    title: 'Bricks Project 1',
-    icon: priceIcon1,
+    title: 'B1G1 Business for good',
+    icon: priceIcon2,
     amount: '24.559.99 USD',
     options: [
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'B1G1 more than 2500+ businesses around the world on the mission to create a world full of giving.',
       },
       {
         status: true,
         label:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          'Create your own Giving Stories so every time you sell a product, create a new client or celebrate a milestone.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Inspire others to be part of the change you’re making.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Every $5 goes to the charity that supplies eco bricks to their community.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Make Impact.',
       },
+      
     ],
   },
   {
     recommended: null,
-    title: 'Bricks Project 2',
+    title: 'The Blocker',
     icon: priceIcon1,
     amount: '14.559.99 USD',
     options: [
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'The Blocker is solving the plastic waste problem.',
       },
       {
         status: true,
         label:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          'Donate to gift a Blocker to a community to start cleaning up the waste in their environment, turning it into bricks.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Communities can use these bricks to start building schools and community structures.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Every 5$ contributed goes to the pool to support the blocker owner to work for the good of their community.',
       },
-      {
-        status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      },
+     
     ],
   },
   {
     recommended: null,
-    title: 'Bricks Project 3',
-    icon: priceIcon1,
+    title: 'Gjenges pledge ',
+    icon: priceIcon3,
     amount: '11.559.99 USD',
     options: [
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Gjenges pledge is to be true to our vision and mission while maintaining sustainable practices as a social enterprise.',
       },
       {
         status: true,
         label:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          'Gjenge have recycled over 100 tonnes of plastic waste.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'We have also managed to create 112 job opportunities for garbage collectors, women, and youth groups by turning plastic waste into affordable beautiful building materials.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Every 5$ contributed goes to the pool to support the blocker owner to grow jobs and continue their good work in their community.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Make impact.',
       },
+      
     ],
   },
   {
     recommended: null,
-    title: 'Bricks Project 4',
-    icon: priceIcon1,
+    title: 'Plastic Smartcities',
+    icon: priceIcon4,
     amount: '4.559.99 USD',
     options: [
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Today an estimated 60% of plastic marine debris derives from urban centers.',
       },
       {
         status: true,
         label:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          'While cities will rapidly increase their population densities to account for two-thirds of the global population by 2050, they must also continue to adopt smart solutions that reduce the collective impact of their prospering communities.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Plastic Smart Cities is a WWF initiative that supports a no plastic in nature agenda.',
       },
       {
         status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        label: 'Every 5$ contributed goes to the pool to support Smart Cities in building a cleaner living space for our future generations.',
       },
-      {
-        status: true,
-        label: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      },
+      
     ],
   },
   
