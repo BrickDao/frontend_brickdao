@@ -35,7 +35,7 @@ export default function Header({ className }) {
           </Flex> 
 
                   
-          <sw-auth partner-key="c3842343a29eac1d33a53bt60gfs1aqcg6g5g71d"></sw-auth>
+          <sw-auth partner-key="dbe266304e9a6cdf7d09da9b92d38d2cc2f321c9"></sw-auth>
 
           <MobileDrawer />
         </Container>
