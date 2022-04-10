@@ -14,6 +14,7 @@ import Pricing from 'sections/pricing';
 
 
 
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
