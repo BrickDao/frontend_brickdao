@@ -2,14 +2,12 @@ import React from 'react';
 import { Box, Container, Image, Heading } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import bannerImage from 'assets/banner-mockup.png';
-import bannerIcon1 from 'assets/banner-icon-1-1.svg';
-import bannerIcon2 from 'assets/banner-icon-1-2.svg';
+import bannerIcon1 from 'assets/banner-icon-1-1.png';
+import bannerIcon2 from 'assets/banner-icon-1-2.png';
 import bannerIcon3 from 'assets/banner-icon-1-3.svg';
 import bannerIcon4 from 'assets/banner-icon-1-4.svg';
 import bannerIcon5 from 'assets/banner-icon-1-5.svg';
-import bannerIcon6 from 'assets/banner-icon-1-6.svg';
-import bannerIcon7 from 'assets/dot-pattern.svg';
-import { Button } from 'react-scroll/modules';
+import { Button } from 'theme-ui';
 
 const Banner = () => {
   return (
@@ -45,27 +43,22 @@ const Banner = () => {
           alt="banner icon"
           src={bannerIcon5}
         />
-        <Image
-          sx={styles.bannerIcon6}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon6}
-        />
-        <Image
-          sx={styles.bannerIcon7}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon7}
-        />
-
+      
         
-        <Heading as="h2">♻️ BrickDAO essentially a brick donor to build schools 🎒</Heading>
+        <Heading as="h2">Giving made Simple & Receiving Transparent</Heading>
+
+        <Button variant="primary">Donate now </Button>
         
 
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
+
+      
+
+     
       
     </Box>
+     
 
     
     

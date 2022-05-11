@@ -5,21 +5,21 @@ export default [
   },
   {
     path: 'services',
-    label: 'What Is BrickDao?',
-  },
-  {
-    path: 'pricing',
     label: 'Projects',
   },
-
   {
     path: 'pricing',
-    label: 'Documentation',
+    label: 'About Us',
   },
 
   {
     path: 'pricing',
-    label: 'Commmunity',
+    label: 'Donor Events',
+  },
+
+  {
+    path: 'pricing',
+    label: 'Contact Us',
   },
   
   

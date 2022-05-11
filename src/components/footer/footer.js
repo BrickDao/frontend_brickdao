@@ -19,10 +19,14 @@ export default function Footer() {
           <Text
             as="p"
             sx={{
-              color: '#ffffff',
+              color: '#02073e',
               opacity: '0.7',
-              fontSize: '14px',
-              mt: ['10px', null, null, null, null, '0'],
+              fontSize: '18px',
+              width: '100%',
+              textAlign: 'center',
+             
+            
+              
               
             }}
           >
@@ -38,7 +42,7 @@ export default function Footer() {
 const styles = {
   footer: {
     py: ['40px', null, null, null, null, '30px', '40px'],
-    backgroundColor: '#020718',
+    backgroundColor: '#ffffff',
     position: 'relative',
     '&::before': {
       content: '""',
@@ -47,7 +51,7 @@ const styles = {
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor: '#ffffff',
+      backgroundColor: '#02073e',
       opacity: '0.05',
     },
   },
@@ -65,7 +69,7 @@ const styles = {
     flexWrap: 'wrap',
     a: {
       fontSize: ['14px', null, null, null, '16px'],
-      color: '#ffffff',
+      color: '#02073E',
       transition: 'all 500ms ease',
       '&:hover': { opacity: 0.7 },
     },

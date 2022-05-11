@@ -1,26 +1,29 @@
 import React from 'react';
 import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
 import { Link } from 'components/link';
+import BlockTitle from 'components/block-title';
 
 import callImage from 'assets/call-image.png';
 
 const CallToAction = () => {
   return (
+    
     <Box as="section" sx={styles.callToAction}>
       <Container>
-        <Flex sx={styles.flex}>
-          <Box sx={styles.content}>
-            <Text as="span">Contribute to the World</Text>
+        <Flex sx={styles.flex}>          
+          <Box sx={styles.content}>        
+            
+            <Text as="span">GIVING FOR GOOD</Text>
             <Heading as="h3">
-            Manage grants to projects to donate bricks to build schools 🧱🏫
+            Through Business Initiatives We Create Opportunity For Giving.
             </Heading>
             <Text as="p">
-            Source of bricks could be plastic bricks – this supports cleaning up the environment The final goal of this DAO should be to fail, because there is no more plastic waste produced on the planetIn a sub-DAOs we could create revenue streams to access grants and donations and where the funding would go.
+            brickDAO will be joined by a large community of philanthropists who are on a mission of creating something good. We have a Subscription Model Instead of raising the money once, the funding will be in a Subscription Model.
 
             </Text>
-            <Link path="#" sx={styles.button}>
+            {/* <Link path="#" sx={styles.button}>
               Donate Now
-            </Link>
+            </Link> */}
           </Box>
           <Box sx={styles.images}>
             <Image src={callImage} alt="call image" />
@@ -36,7 +39,7 @@ export default CallToAction;
 const styles = {
   callToAction: {
     mt: ['-90px', null, null, null, '0'],
-    py: ['50px', null, null, null, '110px', null, '140px'],
+    py: ['50px', null, null, null, '110px', null, '120px'],
   },
   flex: {
     flexWrap: 'wrap',

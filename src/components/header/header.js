@@ -1,12 +1,13 @@
 /** @jsx jsx */
-import { jsx, Container, Flex } from 'theme-ui';
-import { Link } from 'components/link';
+import { jsx, Container, Flex, Button } from 'theme-ui';
+import { Link } from 'react-scroll';
 import { Link as ScrollLink } from 'react-scroll';
 import Logo from 'components/logo';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
 import menuItems from './header.data';
 import logoDark from 'assets/logo-dark.svg';
+;
 
 
 
@@ -32,14 +33,15 @@ export default function Header({ className }) {
                 {label}
               </ScrollLink>
             ))}
-          </Flex> 
+          </Flex>
 
-                  
-          <sw-auth partner-key="dbe266304e9a6cdf7d09da9b92d38d2cc2f321c9"
-          use-dev="true"
-          id="root"
-          use-button-options="true"
-          ></sw-auth>
+
+          <Link >
+            <Button className="donate__btn"
+              variant="secondary"
+              aria-label="Get Started">Open Dapp</Button>
+          </Link>
+
 
           <MobileDrawer />
         </Container>

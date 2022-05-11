@@ -9,15 +9,15 @@ const JACKPOT_DATA = [
   {
     image: jackpotImage1,
     text:
-      'At its core, it primarily pools funds for grants, however there will also be opportunity for investing in start-up programmes creating new product.  Only token holders can make proposals and vote on their execution.',
-    heading: 'Brick Token',
+      'Watch your funding managed in tranches on a verified project of your choice and engaging community members and organizations in a collective decision-making role over its treasury and grant donation process.',
+    // heading: 'Brick Token',
   },
-  {
-    image: jackpotImage2,
-    text:
-      'On completion, each of the Founders get 1000 BrickDAO Tokens which will be staked in the BrickDAO and in turn given 1 BrickNFT minted by the DAO.',
-    heading: 'Token Flow',
-  },
+  // {
+  //   image: jackpotImage2,
+  //   text:
+  //     'On completion, each of the Founders get 1000 BrickDAO Tokens which will be staked in the BrickDAO and in turn given 1 BrickNFT minted by the DAO.',
+  //   heading: 'Token Flow',
+  // },
 ];
 
 const Jackpot = () => {
@@ -30,8 +30,8 @@ const Jackpot = () => {
           </Box>
           <Box sx={styles.content}>
             <Box sx={styles.heading}>
-              <Text as="span">Core features</Text>
-              <Heading as="h3">DAO is incentivized by a brick token🧱🏫</Heading>
+              <Text as="span">Quadratic Funding</Text>
+              {/* <Heading as="h3">DAO is incentivized by a brick token🧱🏫</Heading> */}
             </Box>
             <Box sx={styles.jackpotCardBox}>
               {JACKPOT_DATA.map(({ image, heading, text }, index) => (
@@ -54,7 +54,7 @@ export default Jackpot;
 
 const styles = {
   jackpot: {
-    pt: ['65px', null, null, null, '85px', null, '125px'],
+    pt: ['15px', null, null, null, '105px', null, '125px'],
   },
   flex: {
     flexWrap: 'wrap',

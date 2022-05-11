@@ -13,53 +13,55 @@ const SERVICES_DATA = [
   {
     image: serviceImage1,
     text:
-      'Vote for their favourite projects with their wallet (quadratic funding)',
-    heading: 'Quadratic Funding',
+      'Education is at the heart of every country to build it’s citizens to become the contributors and pioneers of the future – by building schools, we create a safe learning space where people may come together, find the time to imagine and create then grow their communities to beyond sustainable development.',
+    // heading: 'Quadratic Funding',
     path: '#',
   },
   {
     image: serviceImage2,
     text:
-      'Instead of raising the money once, the funding will be in a Subscription Model.',
-    heading: 'Subscription Model',
+      'DAO is incentivized by a brick token At its core, it primarily pools funds for grants, however there will also be opportunity for investing in start-up programmes creating new product. Only token holders can make proposals and vote on their execution.We have interested companies and NPO’s such as B1G1 as well as Subscription Model',
+    // heading: 'Subscription Model',
     path: '#',
   },
   {
     image: serviceImage3,
     text:
-      'The DAO will pay developer contributors from a fixed sum or a percentage of the Budget.',
-    heading: 'Developers Rewarded',
+      'Manage grants to projects to donate bricks to build schools:  Source of bricks could be plastic bricks – this supports cleaning up the environment The final goal of this DAO should be to fail, because there is no more plastic waste produced on the planet.  In a sub-DAOs we could create revenue streams to access grants and donations.',
+    // heading: 'Developers Rewarded',
     path: '#',
   },
-  {
-    image: serviceImage4,
-    text:
-      'Everybody vote counts only once but they can increase their subscription .',
-    heading: 'Votation Power',
-    path: '#',
-  },
-  {
-    image: serviceImage5,
-    text:
-      'The DAO decides which public good will be accepted to the List of Project.',
-    heading: 'DAO Projects',
-    path: '#',
-  },
-  {
-    image: serviceImage6,
-    text:
-      'Grants will available to organisations what will donate bricks to a building project.',
-    heading: 'Grants Distribution',
-    path: '#',
-  },
+  // {
+  //   image: serviceImage4,
+  //   text:
+  //     'Everybody vote counts only once but they can increase their subscription .',
+  //   heading: 'Votation Power',
+  //   path: '#',
+  // },
+  // {
+  //   image: serviceImage5,
+  //   text:
+  //     'The DAO decides which public good will be accepted to the List of Project.',
+  //   heading: 'DAO Projects',
+  //   path: '#',
+  // },
+  // {
+  //   image: serviceImage6,
+  //   text:
+  //     'Grants will available to organisations what will donate bricks to a building project.',
+  //   heading: 'Grants Distribution',
+  //   path: '#',
+  // },
 ];
 const Services = () => {
   return (
     <Box as="section" id="services" sx={styles.services}>
       <Container>
         <BlockTitle
-          title="What is BrickDao ?"
-          text=" ♻️BrickDAO will be joined by a large community of philanthropists who are on a mission of creating something good.  Helping communities build learning centres and attract some NPO’s such as B1G1 as well as be an avenue for the Insights Group, YGV (Global Village Metaverse) impact campaign and awards. 🌍"
+          title="ECO BRICKS BUILD SCHOOLS          "
+          text="brickDAO aims to unlock the current donor ecosystem into a decentralized autonomous organization for donations
+
+          A transparent charity for the people to the people."
         />
         <Grid sx={styles.grid}>
           {SERVICES_DATA.map(({ image, text, heading, path }, index) => (

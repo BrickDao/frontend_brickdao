@@ -8,7 +8,8 @@ import Banner from 'sections/banner';
 import Services from 'sections/services';
 import Jackpot from 'sections/jackpot';
 import CallToAction from 'sections/call-to-action';
-import Pricing from 'sections/pricing';
+
+
 
 
 
@@ -25,12 +26,10 @@ export default function IndexPage() {
           <Services />
           <Jackpot />
           <CallToAction />
+       
+
           
-          <Pricing />
-         
-          
-          
-          
+                            
         </Layout>
       </StickyProvider>
     </ThemeProvider>
